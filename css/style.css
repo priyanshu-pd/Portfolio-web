@@ -1,0 +1,194 @@
+body{
+  margin:  0;
+  text-align: center;   /*use for align evrything i.e text and images in center*/
+  font-family: sans-serif;;/* use font family to change font style **/
+}
+h1{
+  color: #17153B;
+  margin-top: 0;
+  font-size: 140px;
+  font-family: 'Sacramento',cursive;
+  padding-top: 200px;
+}
+h2{
+  color:#4C3BCF ;
+  margin-top: 0;
+
+  font-family: 'Montserrat',sans-serif;
+  padding-top: 40px;/*this will give space btw heading and texts */
+  font-weight:500;
+
+}
+h3{
+  color: #7D8ABC;
+  margin-top: 0;
+  font-family: sans-serif;
+
+}
+h4{
+font-size: 40px;
+margin: 0;
+}
+hr{
+  border:dotted #A7E6FF;/*for separating each section with dotted line*/
+  border-bottom: none;/*remove double dotted and gives single dotted line*/
+  width:4%;/*gives a small length border */
+  margin: 100px auto;
+
+}
+a{
+  color: #5A72A0;
+  font-family: 'Montserrat',sans-serif;
+  margin: 10px 20px;
+  text-decoration:none;
+
+}
+a:hover{
+  color: #EAF6F6;
+}
+/***** for color codes visit color hunt website ***/
+.top-container{
+  background-color:#4D869C;
+
+}
+.mid-container{
+  padding-top:  900px ;
+  background-color: #4D869C;
+  background:100%;
+}
+.profile{
+  padding-top: 40px;
+}
+.skill{
+  top: 100px;
+}
+.bottom-container
+{
+  background-color: #7AB2B2;
+  padding: 30px 0 10px;
+  height: 0.1%;
+  width: 100%;
+}
+.skill-row{
+  width:50%;/*shift the text in left mid */
+  margin: 100px auto 120px auto;
+  text-align: left;
+}
+.webDesigner{
+  color: #17153B;
+  text-decoration: underline;
+  font-size: 40px;
+  width: 20px;
+
+}
+.top-main{
+  position:absolute;
+  left: 610px;
+  height: 150px;
+
+  bottom:auto;
+
+}
+.gif-row{
+  position:relative;
+  width: 140px;
+  padding-bottom: 10px;
+  float: left;/*it will shift all the text with this gif to left*/
+
+}
+.work{
+  position: relative;
+  width:140px;
+  padding-top:30px;
+  float: right;
+}
+.contact-message{
+  width:40%;
+  margin: 40px auto 60px;
+}
+
+.contact-me{
+  padding-bottom: 30px;
+  margin: 10px auto;
+}
+.copyright{
+  color:  #EAF6F6;
+  font-size: 0.75rem;/*means 75% of 16px*/
+  padding: 90px 0;
+}
+
+
+/*the below codes are taken directly from css button generstor for creating buttons to the site */
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat',sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 30px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+
+
+
+.dropbtn {
+  background-color: #4D869C;
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  color: black;
+  padding: 5px 5px;
+  font-size: 16px;
+  border: none;
+
+}
+
+.dropdown {
+  position: absolute;
+  margin-top: 0;
+  left: 1px;
+
+
+
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #4D869C;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #5A72A0;}
